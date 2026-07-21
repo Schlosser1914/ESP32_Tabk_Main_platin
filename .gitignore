@@ -1,0 +1,22 @@
+# KiCad Backups und temporäre Dateien
+*.bak
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*-save.pro
+*-save.kicad_pcb
+*.tmp
+
+# Lock-Dateien (verhindern paralleles Bearbeiten)
+*.lck
+
+# Lokale Benutzereinstellungen (Layer-Sichtbarkeiten etc.)
+*.kicad_prl
+
+# Generierte Fertigungsdaten (optional, aber empfohlen auszuklammern)
+gerber/
+*.gbr
+*.drl
+*.pos
+*.pdf
