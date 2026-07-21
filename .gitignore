@@ -20,3 +20,5 @@ gerber/
 *.drl
 *.pos
 *.pdf
+*-backups/
+_autosave-*
