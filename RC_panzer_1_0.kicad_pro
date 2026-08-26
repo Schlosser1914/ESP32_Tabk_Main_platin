@@ -648,7 +648,7 @@
         "uuid": "6c9e5231-ce36-4742-8ba3-3a3b16c58f9f"
       }
     ],
-    "used_designators": "R1_PULL_UP_FAULT_STEPPER1,R1,#PWR9-10",
+    "used_designators": "#PWR11-14,J11-12",
     "variants": []
   },
   "sheets": [
