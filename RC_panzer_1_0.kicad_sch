@@ -2568,28 +2568,22 @@
 		)
 	)
 	(junction
+		(at 46.99 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32eb366f-e514-4b5d-a6cc-81eca7d1c411")
+	)
+	(junction
 		(at 96.52 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c03cdfe-9dda-4863-b4c2-2208fa37ca04")
 	)
 	(junction
-		(at 226.06 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58449036-baf0-4e71-9359-c4af926a39d9")
-	)
-	(junction
 		(at 160.02 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d14f46f-86bb-460b-9101-e8cccd8ef6f0")
-	)
-	(junction
-		(at 223.52 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89533a06-3527-44d1-9812-0e47aa67d097")
 	)
 	(junction
 		(at 292.1 185.42)
@@ -2760,16 +2754,6 @@
 			(type default)
 		)
 		(uuid "29a2ce1c-3969-4b21-81fd-e2829d56d3fe")
-	)
-	(wire
-		(pts
-			(xy 226.06 49.53) (xy 226.06 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bb39a6f-30de-4b48-a5cc-2d603505bf41")
 	)
 	(wire
 		(pts
@@ -3283,6 +3267,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 160.02) (xy 46.99 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924e22f5-c8fe-42b1-a071-5e7d8fc1bbf7")
+	)
+	(wire
+		(pts
 			(xy 219.71 78.74) (xy 226.06 78.74)
 		)
 		(stroke
@@ -3453,16 +3447,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 49.53) (xy 226.06 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b881b5e9-2c09-419a-a55a-dd831983beec")
-	)
-	(wire
-		(pts
 			(xy 213.36 66.04) (xy 226.06 66.04)
 		)
 		(stroke
@@ -3520,6 +3504,16 @@
 			(type default)
 		)
 		(uuid "c69b1fa7-87ce-4d72-966d-90d563d9440f")
+	)
+	(wire
+		(pts
+			(xy 45.72 170.18) (xy 46.99 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce26c743-3f02-49c9-99a4-933392233a45")
 	)
 	(wire
 		(pts
@@ -4431,16 +4425,6 @@
 		)
 		(uuid "e94642c9-9703-4fa7-abf3-dec576d8adc2")
 	)
-	(label "Quelle- (Masse Quelle)"
-		(at 236.22 151.13 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb9af917-797a-4218-b3b7-3f8c9089b2ec")
-	)
 	(label "A1"
 		(at 223.52 158.75 0)
 		(effects
@@ -4662,7 +4646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L42.5mm_D20.0mm_P49.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P3.50mm"
 			(at 97.4852 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5214,6 +5198,84 @@
 			(project "RC_panzer_1_0"
 				(path "/6c9e5231-ce36-4742-8ba3-3a3b16c58f9f"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 236.22 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44a5133a-668c-46f9-a251-75aabc4e2986")
+		(property "Reference" "#PWR05"
+			(at 236.22 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd3630fb-01a4-4a97-bc3a-553bfb808294")
+		)
+		(instances
+			(project "RC_panzer_1_0"
+				(path "/6c9e5231-ce36-4742-8ba3-3a3b16c58f9f"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5819,7 +5881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L42.0mm_D32.0mm_P45.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 215.5952 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6311,6 +6373,84 @@
 			(project "RC_panzer_1_0"
 				(path "/6c9e5231-ce36-4742-8ba3-3a3b16c58f9f"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7b9bc1c-461d-473d-881d-cc51aeed05d4")
+		(property "Reference" "#PWR06"
+			(at 45.72 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fce33bdd-552f-4b52-a863-253ab097a411")
+		)
+		(instances
+			(project "RC_panzer_1_0"
+				(path "/6c9e5231-ce36-4742-8ba3-3a3b16c58f9f"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
